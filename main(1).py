@@ -5,6 +5,6 @@ while True:
     y = e**2 - 1
     print(y)
     e = b
-    y = x**2 + 5
+    y = e**2 + 5
     print(y)
     break
