@@ -1,8 +1,15 @@
-number = int(input())
-if 99 >= number < 100:
-    num1 = number // 10
-    num2 = number % 10
-    print('Число десятков',num1, '\nЧисло единиц',num2)
-else:
-    print('Invalid number')
-    quit()
+def is_year_leap(year):
+    if year % 100 == 0:
+        if year %  400 == 0:
+            return "Год высокосный"
+        else:
+            return "Год не высокосный"
+
+    elif year % 4 == 0:
+        return "Год высокосный"
+
+    else:
+        return "Год не высокосный"
+
+x = is_year_leap(int(input('Введите год: ')))
+print(x)
