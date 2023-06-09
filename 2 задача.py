@@ -1,5 +1,5 @@
 x = int(input('Ввести 5-значное число '))
-def number():
+def Kolledg():
     if x > 9999 and x < 100000:
         a = x // 10000
         b = x % 10000
@@ -10,4 +10,4 @@ def number():
         e = i // 10
         w = i % 10
         print(e, w)
-number()
+Kolledg()

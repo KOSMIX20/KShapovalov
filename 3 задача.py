@@ -1,5 +1,5 @@
 x = int(input('Ввести 3-значное число '))
-def number():
+def Kolledg():
     if x > 99 and x < 1000:
         a = x // 100
         b = x % 100
@@ -7,4 +7,4 @@ def number():
         d = b % 10
         r = d - c - a 
         print(r)
-number()
+Kolledg()

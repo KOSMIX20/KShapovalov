@@ -1,5 +1,5 @@
 x = int(input('Ввести 4-значное число '))
-def number():
+def Kolledg():
     if x > 999 and x < 10000:
         a = x // 1000
         b = x % 1000
@@ -10,4 +10,4 @@ def number():
         s = a + c + f + i
         g = a * c * f * i
         print(s, g)
-number()
+Kolledg()
